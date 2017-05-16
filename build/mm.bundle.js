@@ -11238,15 +11238,6 @@ angular.module('mm.core.sharedfiles', ['mm.core'])
 angular.module('mm.core.sidemenu', [])
 .config(["$stateProvider", function($stateProvider) {
     $stateProvider
-    .state('site.mm_menupage', {
-        url: '/mm_menupage',
-        views: {
-            'site': {
-                templateUrl: 'core/components/sidemenu/templates/menupage.html'
-            }
-        }
-    });
-    
     .state('site', {
         url: '/site',
         templateUrl: 'core/components/sidemenu/templates/menu.html',
